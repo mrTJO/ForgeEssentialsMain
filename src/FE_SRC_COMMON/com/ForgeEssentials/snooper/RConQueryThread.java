@@ -75,10 +75,10 @@ public class RConQueryThread implements Runnable
     protected int field_72615_d = 5;
 
     /** A list of registered DatagramSockets */
-    protected List socketList = new ArrayList();
+    protected List<DatagramSocket> socketList = new ArrayList<DatagramSocket>();
 
     /** A list of registered ServerSockets */
-    protected List serverSocketList = new ArrayList();
+    protected List<ServerSocket> serverSocketList = new ArrayList<ServerSocket>();
 
 	private IServer server;
 

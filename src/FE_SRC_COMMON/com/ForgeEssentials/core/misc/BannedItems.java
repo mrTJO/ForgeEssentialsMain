@@ -28,7 +28,7 @@ public class BannedItems
 		config.save();
 		
 		String[] list = p.value.split(";");
-		ArrayList<ItemStack> items = new ArrayList();
+		ArrayList<ItemStack> items = new ArrayList<ItemStack>();
 		int id;
 		int meta;
 		// Decompose list into (item ID, Meta) pairs.
